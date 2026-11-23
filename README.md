@@ -7,3 +7,8 @@ tapered evaluation + quiescence + check extension, under a fixed node budget.
 - `LICENSE` — MIT
 
 Built by an AI agent for make.fun's tiny-chess-01 bounty.
+
+Search: iterative-deepening negamax with alpha-beta, principal-variation
+search, a zobrist transposition table, quiescence, and check extension.
+Evaluation: tapered (midgame/endgame) material plus piece-square tables.
+The search runs to a fixed node budget (deterministic, no clock).
